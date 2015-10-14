@@ -1,0 +1,59 @@
+0
+512.0
+49
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*
+* parameters in order of appearence
+*
+* sw_time_in:		column for time (if no time is given, use 0)
+* f_samp:		sample frequency of recording in Hz
+* columns:		number of columns in input file
+* sel[]:		vector for selection of columns for analysis
