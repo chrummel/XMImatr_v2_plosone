@@ -1,0 +1,27 @@
+0
+3
+4096
+1024
+10
+10
+512
+0.0
+180.0
+0.01
+3
+1
+*
+* parameters in order of appearence
+*
+* sw_slopes:		switch for analysis of slopes (0: original signals are analyzed, 1: first temporal derivative is analyzed)
+* neighbors:		cross-correlation only if ==0, otherwise in addition mutual information using k nearest neighbors if ==k>0
+* T_surr:		length of time window for surrogates, must be 2^n
+* T:			length of time window for C-matrix,   must be 2^n
+* N_ens:		ensemble size
+* N_surr:		number of surrogates
+* step_surr:		step width for evaluation
+* tstart:		start for analysis
+* tstop:		stop  for analysis
+* siglev:		level of significance
+* sw_corr:		switch for correction (uncorr. if ==0, FWER if ==1, FDR if ==2, Bonferroni if ==3)
+* sw_time_out:		output of time as leading column if ==1
